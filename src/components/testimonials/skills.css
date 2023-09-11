@@ -1,0 +1,94 @@
+.testimonials {
+  background-color: white;
+  width: 100%;
+  position: relative;
+}
+.testimonials .container {
+  height: 450px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  margin-top: 80px;
+}
+@media (max-width: 774px) {
+  .testimonials .container {
+    height: 1000px;
+    margin-top: -50px;
+    align-items: center;
+    gap: -10px;
+    margin-left: 60px;
+  }
+}
+.testimonials .container .item {
+  width: 230px;
+  height: 180px;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 774px) {
+  .testimonials .container .item {
+    width: 230px;
+    align-items: center;
+    margin-top: 0px;
+    height: 270px;
+    align-items: center;
+  }
+}
+.testimonials .container .item .inner {
+  width: 80px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(173, 167, 167);
+  border-radius: 30px;
+}
+.testimonials .container .item .inner img {
+  width: 50px;
+  cursor: pointer;
+  animation-name: change;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes change {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+.testimonials .container .item .head {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0 0 130px;
+}
+@media (max-width: 774px) {
+  .testimonials .container .item .head {
+    margin-right: 110px;
+  }
+}
+.testimonials .arrow1 {
+  position: absolute;
+  bottom: 5px;
+  left: 80%;
+}
+@media (max-width: 774px) {
+  .testimonials .arrow1 {
+    bottom: -400px;
+  }
+}
+.testimonials .arrow1 img {
+  width: 30px;
+  animation: arrowBlink 2s infinite;
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=skills.css.map */

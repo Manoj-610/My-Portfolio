@@ -1,0 +1,118 @@
+.intro {
+  background-color: white;
+  display: flex;
+}
+@media (max-width: 774px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.intro .left {
+  flex: 0.5;
+  overflow: hidden;
+}
+.intro .left .imgcontainer {
+  width: 600px;
+  height: 600px;
+  background-color: crimson;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: right;
+}
+@media (max-width: 774px) {
+  .intro .left .imgcontainer {
+    align-items: flex-start;
+  }
+}
+.intro .left .imgcontainer img {
+  width: 70%;
+}
+@media (max-width: 774px) {
+  .intro .left .imgcontainer img {
+    height: 80%;
+  }
+}
+.intro .right {
+  flex: 0.5;
+  position: relative;
+}
+.intro .right .wrapper {
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 774px) {
+  .intro .right .wrapper {
+    padding-left: 0;
+    align-items: center;
+  }
+}
+.intro .right .wrapper h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+@media (max-width: 774px) {
+  .intro .right .wrapper h1 {
+    font-size: 40px;
+  }
+}
+.intro .right .wrapper h2 {
+  font-size: 35px;
+}
+.intro .right .wrapper h3 {
+  font-size: 30px;
+}
+@media (max-width: 774px) {
+  .intro .right .wrapper h3 {
+    font-size: 20px;
+  }
+}
+.intro .right .wrapper h3 span {
+  font-size: inherit;
+  color: crimson;
+}
+.intro .right .wrapper .resume {
+  width: 300px;
+  height: 70px;
+  padding: 15px;
+  border: 1ps solid purple;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 40px;
+}
+@media (max-width: 774px) {
+  .intro .right .wrapper .resume {
+    font-size: 10px;
+    margin-left: 120px;
+  }
+}
+.intro .right .wrapper .resume .anchor1 {
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: rgb(113, 168, 189);
+  color: rgb(239, 239, 239);
+  font-size: 19px;
+  font-weight: 700;
+  padding: 6px;
+  box-shadow: 10px 5px 5px rgb(103, 89, 89);
+}
+.intro .anchor {
+  position: absolute;
+  bottom: 10px;
+  left: 60%;
+}
+.intro .anchor img {
+  width: 30px;
+  animation: arrowBlink 2s infinite;
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=intro.css.map */

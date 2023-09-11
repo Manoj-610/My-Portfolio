@@ -1,0 +1,40 @@
+.portfolio {
+  width: 70%;
+  background-color: white;
+  position: relative;
+}
+.portfolio .port-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+}
+.portfolio .port-main img {
+  width: 20%;
+}
+.portfolio .port-main p {
+  margin: 30px 0 20px 0;
+  font-size: 25px;
+  width: 630px;
+  font-weight: 400;
+}
+@media (max-width: 774px) {
+  .portfolio .port-main p {
+    width: 350px;
+  }
+}
+.portfolio .arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 80%;
+}
+.portfolio .arrow img {
+  width: 30px;
+  animation: arrowBlink 2s infinite;
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=aboutme.css.map */

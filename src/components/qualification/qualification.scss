@@ -1,0 +1,111 @@
+@import "../../global.scss";
+.quali{
+    width: 90%;
+    background-color: white;
+    position: relative;
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .itemcontainer{
+            display: flex;
+            gap: 10px;
+            margin-top: 100px;
+            margin-bottom: 40px;
+           
+           
+            
+           
+            }
+
+            .icon{
+                font-size: 33px;
+                margin-right: 10px;
+              
+                @include mobile{
+                    font-size: 25px;
+                }
+
+            }
+           
+           
+            .head{
+                font-size: 30px;
+                @include mobile{
+                    font-size: 25px;
+                }
+               
+           
+        }
+        
+       
+        
+        .main:hover{
+            transform: scale(1.06);
+            transition: all 1s ease;
+            @include mobile{
+                transform: scale(1.05);
+                transition: all 1s ease;  
+            }
+        }
+       
+      
+        
+       
+    }
+    .main{
+        width: 500px;
+        height: 310px;
+        background-color: rgb(230, 237, 237);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        cursor: pointer;
+        box-shadow: 10px 5px 5px gray;
+        @include mobile{
+            font-size: 20px;
+            width: 330px;
+            padding: 0 9px;
+        }
+        .bach{
+            margin-top: 22px;
+            font-size: 25px;
+            margin-bottom: 2px;
+            font-weight: 500;
+            @include mobile{
+                font-size: 18px;
+                width: 350px;
+                margin-left: 28px;
+                font-weight: 600;
+            }
+        }
+        p{
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+        .head1{
+            font-size: 25px;
+
+        }
+    }
+    .arrow1{
+        position: absolute;
+      bottom: 10px;
+      left:80% ;
+        img{
+           width: 30px;
+          animation: arrowBlink 2s infinite;
+        }
+        @keyframes arrowBlink{
+           100%{
+               opacity: 0;
+           }
+       }
+      }
+    
+}
