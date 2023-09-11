@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cart-react/static/css/main.7a5c8124.css",
+    "main.js": "/cart-react/static/js/main.a8079236.js",
+    "static/media/Javascript-JS.png": "/cart-react/static/media/Javascript-JS.85a8a0c9688ab9f006b7.png",
+    "static/media/man.png": "/cart-react/static/media/man.0fc38d652a9bad41ea5b.png",
+    "static/media/react.png": "/cart-react/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/Bootstrap_logo.svg.png": "/cart-react/static/media/Bootstrap_logo.svg.70f4dd8ef1861d7a9dfe.png",
+    "static/media/weather1.webp": "/cart-react/static/media/weather1.136914634a24c66894c2.webp",
+    "static/media/git-github.jpg": "/cart-react/static/media/git-github.fb70e4091ffd12521f1f.jpg",
+    "static/media/todo1.jpg": "/cart-react/static/media/todo1.3c5b63b0399c42fc543d.jpg",
+    "static/media/analog.webp": "/cart-react/static/media/analog.da172ab57ae0b9baab43.webp",
+    "static/media/web.png": "/cart-react/static/media/web.ec402521a9258c9ff5ce.png",
+    "static/media/html.png": "/cart-react/static/media/html.94972f53c025a8fb7e2b.png",
+    "static/media/hand.png": "/cart-react/static/media/hand.80a14d3f1f2e43ea5bd8.png",
+    "index.html": "/cart-react/index.html",
+    "static/media/css.svg": "/cart-react/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "main.7a5c8124.css.map": "/cart-react/static/css/main.7a5c8124.css.map",
+    "main.a8079236.js.map": "/cart-react/static/js/main.a8079236.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a5c8124.css",
+    "static/js/main.a8079236.js"
+  ]
+}
