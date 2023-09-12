@@ -43,6 +43,7 @@
        
         
         .main:hover{
+           
             transform: scale(1.06);
             transition: all 1s ease;
             @include mobile{
