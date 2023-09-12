@@ -58,7 +58,7 @@ export default function Works() {
 
                 <span className="spa">
                   <img className="live-img" src={live} />
-                  <a href="https://manoj-610.github.io/To-Do-List/">
+                  <a href="https://manoj-610.github.io/ToDoList/">
                     Live demo
                   </a>
                 </span>
