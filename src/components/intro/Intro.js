@@ -21,7 +21,7 @@ export default function Intro() {
           <div className="resume">
           <a
               className="anchor1"
-              href="https://drive.google.com/uc?export=download&id=13Mv2YPEV2z8rRryRTzcRZcDguks85oDI"
+              href="https://drive.google.com/uc?export=download&id=1g25EHktdi-l1TksT5XenBykOwPxyilLg"
             >
               Download CV
             </a>
